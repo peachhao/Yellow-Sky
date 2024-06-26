@@ -204,3 +204,80 @@ footer .icons i.fa{
   /* font-size: 2rem; */
   color: #512a10;
 }
+
+/*反馈模块*/
+.reviews .page-header,.gallery .page-header{
+ padding: 2rem 0;
+}
+.reviews .thumbs{
+  background-color: transparent;
+  padding: 3rem 2rem;
+  border: none;
+}
+.reviews .thumbs img{
+  width: 10rem;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.reviews .thumbs:hover{
+  background: #f7f59a;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+  transform: translateY(-1rem);
+}
+
+/*联系模块*/
+
+.contact .page-header,.gallery .page-header{
+  padding: 2rem 0;
+ }
+ .contact .icons{
+   background-color: transparent;
+   padding: 3rem 2rem;
+   border: none;
+ }
+ .contact .icons img{
+   width: 10rem;
+   margin: 0 auto;
+   border-radius: 50%;
+ }
+ .contact .icons:hover{
+   background: #eca175d3;
+   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+   transform: translateY(-1rem);
+ }
+
+ /*新闻模块*/
+ .post .page-header,.gallery .page-header{
+  padding: 2rem 0;
+ }
+ .post .thumbs{
+   background-color: transparent;
+   padding: 3rem 2rem;
+   border: none;
+ }
+ .post .thumbs img{
+   width: 10rem;
+   margin: 0 auto;
+   border-radius: 50%;
+ }
+ .post .thumbs:hover{
+   background: #eca175d3;
+   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+   transform: translateY(-1rem);
+ }
+
+ /*登入模块*/
+ @media (min-width: 768px) {
+  nav .container{
+    position: relative;
+  }
+  .navbar-nav{
+    margin-right:3rem;
+  }
+  button.btnuser{
+    display: block;
+    position: absolute;
+    right: 0;
+    top:-3px;
+  }
+}

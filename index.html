@@ -18,14 +18,23 @@
   <script src="bootstrap/js/script.js"></script>
 </head>
 
-<body>
+<body class style>
+
 
   <audio src="media/bgm.mp3" autoplay></audio>
-  <section id="nav" class="nav fixed-top">
+
+  
+  
+
+  
+  <section id="nav" class="nav fixed-top" style>
     <div class="container ">
       <nav class="navbar navbar-expand-lg navbar-dark ">
         <a class="navbar-brand" href="#">
           <i class="bi bi-cup-hot-fill"></i>
+          <button type="button" class="navbar-toggle " data-toggle="modal" data-target="#myModal">
+            <i class="fa fa-user"></i>
+        </button>
           <span>Coffee</span>
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
@@ -51,6 +60,49 @@
       </nav>
     </div>
   </section>
+
+  <!--登入模块-->
+  <div class="modal fade loginform" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+    <div class="modal-content">
+        <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true"></span></button>
+        <h4 class="modal-title" id="myModalLabel">Coffee</h4>
+        </div>
+        <div class="modal-body">
+            <h3>开启美好的一天</h3>
+            <form action="" method="post">
+                <div class="form-group">
+                    <input class="form-control" type="email" placeholder="请输入您的账号" name="" id="">
+                </div>
+                <div class="form-group">
+                    <input class="form-control" type="password" placeholder="请输入您的密码" name="" id="">
+                </div>
+                <div class="form-txt">
+                    <div class="row">
+                        <div class="col-md-1 col-sm-1 col-xs-1">
+                            <input type="checkbox" id="remenber" aria-label="...">
+                        </div>
+                        <div class="col-md-7 col-sm-7 col-xs-7">
+                            <label for="remenber">记住账号</label>
+                        </div>
+                        <div class="col-md-4 col-sm-4 col-xs-4">
+                            <a href="">忘记密码?</a>
+                        </div>
+                    </div>
+                </div>
+                
+            </form>
+
+
+        </div>
+        <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+    </div>
+    </div>
+</div>
 
   <!-- 焦点图模块-->
   <section id="home" class="home">
@@ -504,30 +556,31 @@
             <div class="col-sm-6 col-md-4">
                 <div class="thumbs text-center">
                     <a href="#" class="thumbnail">
-                        <div class="imgbox"><img class="img-responsive" src="images/jb22 - .jpg" alt="..."></div>
-                        <h3>Blog Title Goes Here.</h3>
-                        <p>Il s'agit du texte de la description du produit, qui est édité en fonction du contenu.</p>
-                        <button type="button" class="btn btn-default btn-lg">read more</button>
+                        <div class="imgbox"><img class="img-responsive" src="images/hwz1.jpg" alt="..."></div>
+                        <h3>震惊！男大竟然在台球馆做这种事....</h3>
+                        <p> 6月25日男大黄某重在游殿桌球馆开杆竟把男伴蒋某博底裤打穿。事后蒋先生回复称"当时白球就离我10000mm，差点就把我击穿！"</p>
+                        <button type="button" class="btn btn-default btn-lg">了解更多</button>
                     </a>
                 </div>
             </div>
             <div class="col-sm-6 col-md-4">
                 <div class="thumbs text-center">
                     <a href="#" class="thumbnail">
-                        <div class="imgbox"><img class="img-responsive" src="images/jb22 - .jpg" alt="..."></div>
-                        <h3>Blog Title Goes Here.</h3>
-                        <p>Il s'agit du texte de la description du produit, qui est édité en fonction du contenu.</p>
-                        <button type="button" class="btn btn-default btn-lg">read more</button>
+                        <div class="imgbox"><img class="img-responsive" src="images/hh1.jpg" alt="..."></div>
+                        <h3>喜报！喜报！</h3>
+                        <p>近日，凰蒋集团与皇博集团双双联手，拿下江门市史上第一破千亿项目，江门市民洪先生称"我也不知道啊，当时就3.1415926抽离了原子核，
+                          使得本田雅阁2.0升得到了氦气加速，当时南非的亚美蝶就扇动翅膀起飞了"</p>
+                        <button type="button" class="btn btn-default btn-lg">了解更多</button>
                     </a>
                 </div>                    
             </div>
             <div class="col-sm-6 col-md-4">
                 <div class="thumbs text-center">
                     <a href="#" class="thumbnail">
-                        <div class="imgbox"><img class="img-responsive" src="images/jb22 - .jpg" alt="..."></div>  
-                        <h3>Blog Title Goes Here.</h3>
-                        <p>Il s'agit du texte de la description du produit, qui est édité en fonction du contenu.</p>
-                        <button type="button" class="btn btn-default btn-lg">read more</button>
+                        <div class="imgbox"><img class="img-responsive" src="images/hjh1.jpg" alt="..."></div>  
+                        <h3>放学后，竟然发生这样的事！</h3>
+                        <p>邮电一男子放学后在有氧跑道上当众吃鸡。据当事人黄先生称”对啊，他很用力那时候“</p>
+                        <button type="button" class="btn btn-default btn-lg">了解更多</button>
                     </a>
                 </div>                    
             </div>
